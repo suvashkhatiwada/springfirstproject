@@ -13,6 +13,8 @@ public class App
     	cs.setFullName("Suvash Khatiwada");
     	cs.setEmail("suvashkhatiwada@gmail.com");
     	
+        System.out.println( cs.getId() );
         System.out.println( cs.getFullName() );
+        System.out.println( cs.getEmail() );
     }
 }
