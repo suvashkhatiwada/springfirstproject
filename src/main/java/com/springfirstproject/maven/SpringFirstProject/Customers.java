@@ -9,6 +9,11 @@ public class Customers {
 		return id;
 	}
 
+	@Override
+	public String toString() {
+		return "Customers [id=" + id + ", fullName=" + fullName + ", email=" + email + ", address=" + address + "]";
+	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
