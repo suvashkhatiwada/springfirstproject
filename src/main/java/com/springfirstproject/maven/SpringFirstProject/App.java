@@ -8,6 +8,11 @@ public class App
 {	
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	Customers cs= new Customers();
+    	cs.setId(1);
+    	cs.setFullName("Suvash Khatiwada");
+    	cs.setEmail("suvashkhatiwada@gmail.com");
+    	
+        System.out.println( cs.getFullName() );
     }
 }
