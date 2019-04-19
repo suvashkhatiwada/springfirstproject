@@ -7,7 +7,7 @@
 		<property name="id" value="2"></property>
 		<property name="fullName" value="Suvash Khatiwada"></property>
 		<property name="email" value="suvashkhatiwada@gmail.com"></property>
-		<property name="address" value="Fairfax"></property>
+		<property name="address" ref="address"></property>
 	</bean>
 	
 	<bean id="address" class="com.springfirstproject.maven.SpringFirstProject.Address">

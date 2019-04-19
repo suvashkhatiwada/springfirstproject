@@ -12,7 +12,7 @@ public class SpringMainApp {
 
 		Address address = (Address) ctx.getBean("address");
 
-		System.out.println(address.toString());
+		//System.out.println(address.toString());
 
 		System.out.println(customer.toString());
 	}
