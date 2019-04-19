@@ -9,12 +9,12 @@ public class SpringMainApp {
 
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("application-context.xml");
 		Customers customer = (Customers) ctx.getBean("cust");
+		System.out.println(customer.toString());
 
-		Address address = (Address) ctx.getBean("address");
-
+		//Address address = (Address) ctx.getBean("address");
 		//System.out.println(address.toString());
 
-		System.out.println(customer.toString());
+		
 	}
 
 }
