@@ -4,6 +4,7 @@ public class Customers {
 	private int id;
 	private String fullName;
 	private String email;
+	private String address;
 
 	public int getId() {
 		return id;
@@ -42,5 +43,5 @@ public class Customers {
 		this.address = address;
 	}
 
-	private String address;
+	
 }

@@ -1,0 +1,21 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="cust" class="com.springfirstproject.maven.SpringFirstProject.Customers">
+		<property name="id" value="2"></property>
+		<property name="fullName" value="Suvash Khatiwada"></property>
+		<property name="email" value="suvashkhatiwada@gmail.com"></property>
+		<property name="address" value="Fairfax"></property>
+	</bean>
+	
+	<bean id="address" class="com.springfirstproject.maven.SpringFirstProject.Address">
+		<property name="address1" value="9451 Lee Hwy"></property>
+		<property name="address2" value="Apt 715"></property>
+		<property name="city" value="Fairfax"></property>
+		<property name="state" value="VA"></property>
+		<property name="zip" value="22031"></property>
+	</bean>
+
+</beans>
