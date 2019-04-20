@@ -11,8 +11,8 @@ public class SpringMainApp {
 		Customers customer = (Customers) ctx.getBean("cust");
 		System.out.println(customer.toString());
 
-		//Address address = (Address) ctx.getBean("address");
-		//System.out.println(address.toString());
+		Address address = (Address) ctx.getBean("address");
+		System.out.println(address.toString());
 
 		
 	}
